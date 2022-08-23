@@ -1,0 +1,7 @@
+#+TITLE: Data Structures
+#+AUTHOR: Tanner Babcock
+#+EMAIL: babkock@protonmail.com
+#+LANGUAGE: en
+
+This is my repository for my Data Structures class.
+
