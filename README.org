@@ -5,3 +5,8 @@
 
 This is my repository for my Data Structures class.
 
+* Module 0
+
+|Topic|Assignment|Link|
+|-----+----------+----|
+| 3   |Using Iterators|[[https://gitlab.com/tbhomework/cis152/-/blob/main/IteratorsBabcock.cpp][IteratorsBabcock.cpp]] |
