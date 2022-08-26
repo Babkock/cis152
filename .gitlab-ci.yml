@@ -7,7 +7,9 @@ build:
     - apt update && apt -y install make autoconf
   script:
     - g++ IteratorsBabcock.cpp -Wall -O2 -o Iterators
+    - g++ CanBabcock.cpp -Wall -O2 -o Can
   artifacts:
     paths:
       - Iterators
+      - Can
 

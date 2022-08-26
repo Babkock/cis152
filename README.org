@@ -10,3 +10,9 @@ This is my repository for my Data Structures class.
 |Topic|Assignment|Link|
 |-----+----------+----|
 | 3   |Using Iterators|[[https://gitlab.com/tbhomework/cis152/-/blob/main/IteratorsBabcock.cpp][IteratorsBabcock.cpp]] |
+
+* Module 1
+
+|Topic|Assignment|Link|
+|-----+----------+----|
+| 4   | Basic OO and Encapsulation|[[https://gitlab.com/tbhomework/cis152/-/blob/main/CanBabcock.cpp][CanBabcock.cpp]] |

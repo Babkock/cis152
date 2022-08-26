@@ -2,7 +2,7 @@
  * Name: Using Iterators
  * Author: Tanner Babcock
  * Created: August 25, 2022
- * Course: CIS 152 - Data Structure
+ * Course: CIS 152 - Data Structures
  * Version: 1.0
  * OS: Void GNU/Linux
  * IDE: Vim
