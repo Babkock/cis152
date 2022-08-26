@@ -98,8 +98,8 @@ public:
 
     /* display function */
     void print(void) {
-        cout << company << " " << content << endl;
-        cout << "Size: " << size << " ounces, Price: $" << price << endl;
+        cout << getCompany() << " " << getContent() << endl;
+        cout << "Size: " << getSize() << " ounces, Price: $" << getPrice() << endl;
     }
 };
 
