@@ -8,8 +8,10 @@ build:
   script:
     - g++ IteratorsBabcock.cpp -Wall -O2 -o Iterators
     - g++ CanBabcock.cpp -Wall -O2 -o Can
+    - g++ SuperClassBabcock.cpp -Wall -O2 -o SuperClass
   artifacts:
     paths:
       - Iterators
       - Can
+      - SuperClass
 
