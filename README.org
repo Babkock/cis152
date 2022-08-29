@@ -18,3 +18,9 @@ This is my repository for my Data Structures class.
 | 4   | Basic OO and Encapsulation|[[https://gitlab.com/tbhomework/cis152/-/blob/main/CanBabcock.cpp][CanBabcock.cpp]] |
 | 5   | Inheritance and Polymorphism: SuperClass|[[https://gitlab.com/tbhomework/cis152/-/blob/main/SuperClassBabcock.cpp][SuperClassBabcock.cpp]] |
 
+* Module 2
+
+|Topic|Assignment|Link|
+|-----+----------+----|
+| 1   |Inheritance and Polymorphism: Derived Classes|[[https://gitlab.com/tbhomework/cis152/-/tree/main/DerivedClasses][DerivedClasses]] |
+
