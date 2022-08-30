@@ -17,7 +17,27 @@
 #include <string>
 using namespace std;
 
-class Shirt : private Clothing {
+class Clothing {
+private:
+	char size;
+	string color;
+public:
+	/* constructors */
+	Clothing() {
+		size = 'M';
+		color = "White";
+	}
+	Clothing(char s) {
+		size = s;
+		color = "White";
+	}
+	Clothing(char s, string c) {
+		size = s;
+		color = c;
+	}
+};
+
+class Shirt : public Clothing {
 private:
 	string sleeves;
 public:
