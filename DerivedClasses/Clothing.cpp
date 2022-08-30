@@ -19,28 +19,28 @@ using namespace std;
 
 class Clothing {
 private:
-    int size;
+    char size;
     string color;
 public:
     /* constructors */
     Clothing() {
-        size = 0;
+        size = 'M';
         color = "White";
     }
-    Clothing(int s) {
+    Clothing(char s) {
         size = s;
         color = "White";
     }
-    Clothing(int s, string c) {
+    Clothing(char s, string c) {
         size = s;
         color = c;
     }
 
     /* getters and setters */
-    void setSize(int s) {
+    void setSize(char s) {
         size = s;
     }
-    int getSize(void) {
+    char getSize(void) {
         return size;
     }
     void setColor(string c) {
