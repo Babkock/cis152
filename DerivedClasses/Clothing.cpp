@@ -15,51 +15,51 @@
 ************************************/
 #include <iostream>
 #include <string>
+#include "Clothing.h"
 using namespace std;
 
-class Clothing {
-private:
-    char size;
-    string color;
-public:
-    /* constructors */
-    Clothing() {
-        size = 'M';
-        color = "White";
-    }
-    Clothing(char s) {
-        size = s;
-        color = "White";
-    }
-    Clothing(char s, string c) {
-        size = s;
-        color = c;
-    }
+Clothing::Clothing() {
+    size = 'M';
+    color = "White";
+}
 
-    /* getters and setters */
-    void setSize(char s) {
-        size = s;
-    }
-    char getSize(void) {
-        return size;
-    }
-    void setColor(string c) {
-        color = c;
-    }
-    string getColor(void) {
-        return color;
-    }
+Clothing::Clothing(char s) {
+    size = s;
+    color = "White";
+}
 
-    /* methods */
-    string wash(void) {
-        return "Wash in cold water";
-    }
-    string pack(void) {
-        return "Fold gently";
-    }
-    void print(void) {
-        cout << "Size: " << size << endl;
-        cout << "Color: " << color << endl;
-    }
-};
+Clothing::Clothing(char s, string c) {
+    size = s;
+    color = c;
+}
 
+/* getters and setters */
+void Clothing::setSize(char s) {
+    size = s;
+}
+
+char Clothing::getSize(void) {
+    return size;
+}
+
+void Clothing::setColor(string c) {
+    color = c;
+}
+
+string Clothing::getColor(void) {
+    return color;
+}
+
+/* methods */
+string Clothing::wash(void) {
+    return "Wash in cold water";
+}
+
+string Clothing::pack(void) {
+    return "Fold gently";
+}
+
+void Clothing::print(void) {
+    cout << "Size: " << size << endl;
+    cout << "Color: " << color << endl;
+}

@@ -15,27 +15,8 @@
 ************************************/
 #include <iostream>
 #include <string>
+#include "Clothing.h"
 using namespace std;
-
-class Clothing {
-private:
-	char size;
-	string color;
-public:
-	/* constructors */
-	Clothing() {
-		size = 'M';
-		color = "White";
-	}
-	Clothing(char s) {
-		size = s;
-		color = "White";
-	}
-	Clothing(char s, string c) {
-		size = s;
-		color = c;
-	}
-};
 
 class Shirt : public Clothing {
 private:
