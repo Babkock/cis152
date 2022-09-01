@@ -18,21 +18,17 @@
 #include "Clothing.h"
 using namespace std;
 
-class Pants : public Clothing {
-public:
-    /* constructors */
-    Pants():
-        Clothing() { }
-    Pants(char s):
-        Clothing(s) { }
-    Pants(char s, string c):
-        Clothing(s, c) { }
+Pants::Pants(void):
+    Clothing() { }
+Pants::Pants(char s):
+    Clothing(s) { }
+Pants::Pants(char s, string c):
+    Clothing(s, c) { }
 
-    /* methods */
-    string wash(void) {
-        return "Pants are dry clean only!";
-    }
-    string hang(void) {
-        return "Hanging the pants";
-    }
-};
+/* methods */
+string Pants::wash(void) {
+    return "Pants are dry clean only!";
+}
+string Pants::hang(void) {
+    return "Hanging the pants";
+}

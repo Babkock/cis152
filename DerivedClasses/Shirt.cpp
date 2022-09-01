@@ -18,29 +18,30 @@
 #include "Clothing.h"
 using namespace std;
 
-class Shirt : public Clothing {
-private:
-	string sleeves;
-public:
-	/* constructors */
-	Shirt(string ss):
-		Clothing(), sleeves(ss) { }
-	Shirt(string ss, char s):
-		Clothing(s), sleeves(ss) { }
-	Shirt(string ss, char s, string c):
-		Clothing(s, c), sleeves(ss) { }
+/* constructors */
+Shirt::Shirt(string ss):
+    Clothing(), sleeves(ss) { }
+Shirt::Shirt(string ss, char s):
+    Clothing(s), sleeves(ss) { }
+Shirt::Shirt(string ss, char s, string c):
+    Clothing(s, c), sleeves(ss) { }
 
-	/* getters and setters */
-	void setSleeves(string s) {
-		sleeves = s;
-	}
-	string getSleeves(void) {
-		return sleeves;
-	}
+/* getters and setters */
+void Shirt::setSleeves(string s) {
+    sleeves = s;
+}
+string Shirt::getSleeves(void) {
+    return sleeves;
+}
 
-	/* methods */
-	string wash(void) {
-		return "Dry clean only!";
-	}
-};
+/* methods */
+string Shirt::wash(void) {
+    return "Dry clean only!";
+}
+
+void Shirt::print(void) {
+	cout << "Shirt sleeves: " << sleeves << endl;
+	cout << "Shirt size: " << this->getSize() << endl;
+	cout << "Shirt color: " << this->getColor() << endl;
+}
 
