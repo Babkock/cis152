@@ -25,7 +25,7 @@ private:
     float price;
 public:
     /* constructors */
-    Can() {
+    Can(void) {
         company = "Unknown";
         content = "Unknown";
         size = 1.0;

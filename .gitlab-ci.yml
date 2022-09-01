@@ -9,6 +9,7 @@ build:
     - g++ IteratorsBabcock.cpp -Wall -O2 -o Iterators
     - g++ CanBabcock.cpp -Wall -O2 -o Can
     - g++ SuperClassBabcock.cpp -Wall -O2 -o SuperClass
+    - g++ AbstractBabcock.cpp -Wall -O2 -o Abstract
     - cd DerivedClasses
     - make
     - cd ..
@@ -17,5 +18,6 @@ build:
       - Iterators
       - Can
       - SuperClass
+      - Abstract
       - DerivedClasses/DerivedClasses
 
