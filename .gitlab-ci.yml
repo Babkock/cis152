@@ -13,6 +13,7 @@ build:
     - cd DerivedClasses
     - make
     - cd ..
+    - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
   artifacts:
     paths:
       - Iterators
@@ -20,4 +21,5 @@ build:
       - SuperClass
       - Abstract
       - DerivedClasses/DerivedClasses
+      - Interfaces
 

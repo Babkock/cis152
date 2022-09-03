@@ -20,7 +20,8 @@ This is my repository for my Data Structures class.
 
 * Module 2
 
-|Topic|Assignment|Link|
-|-----+----------+----|
-| 1   |Inheritance and Polymorphism: Derived Classes|[[https://gitlab.com/tbhomework/cis152/-/tree/main/DerivedClasses][DerivedClasses]] |
-| 2   |Abstract Class|[[https://gitlab.com/tbhomework/cis152/-/blob/main/AbstractBabcock.cpp][AbstractBabcock.cpp]] |
+| Topic | Assignment                                    | Link                |
+|-------+-----------------------------------------------+---------------------|
+|     1 | Inheritance and Polymorphism: Derived Classes | [[https://gitlab.com/tbhomework/cis152/-/tree/main/DerivedClasses][DerivedClasses]]      |
+|     2 | Abstract Class                                | [[https://gitlab.com/tbhomework/cis152/-/blob/main/AbstractBabcock.cpp][AbstractBabcock.cpp]] |
+|     3 | Interfaces and Polymorphism                   | [[https://gitlab.com/tbhomework/cis152/-/blob/main/InterfacesBabcock.cpp][InterfacesBabcock.cpp]] |
