@@ -46,6 +46,8 @@ string Stack::peek(void) {
 
 string Stack::pop(void) {
     string item = "";
+    if (isEmpty())
+        throw (StackEmptyException("Stack is empty!"));
     item = stackItems[top];
     stackItems[top] = "";
     top--;
@@ -61,8 +63,10 @@ void Stack::push(string item) {
 
 string Stack::printStackUp(void) {
     string StackString = "";
-    for (int x = 0; x < maxSize - 1; x++) {
+    if (isEmpty())
+        throw (StackEmptyException("Stack is empty!"));
+    for (int x = top; x > -1; x--) {
         StackString += stackItems[x] + "\n";
     }
-    return StackString; // Possibly you will remove this line, this is for running Unit Tests before writing code
+    return StackString;
 }
