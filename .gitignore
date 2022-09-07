@@ -3,6 +3,7 @@ Iterators
 Can
 Abstract
 *.o
+*.zip
 DerivedClasses
 build*
 build*/*
