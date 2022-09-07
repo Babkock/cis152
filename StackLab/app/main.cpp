@@ -1,6 +1,6 @@
 #include "stack.h"
 
-int main()
+int main(void)
 {
     Stack s = Stack(1);
     // s.peek();

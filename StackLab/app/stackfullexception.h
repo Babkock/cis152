@@ -1,5 +1,6 @@
 #ifndef STACKFULLEXCEPTION_H
 #define STACKFULLEXCEPTION_H
+
 #include <string>
 using namespace std;
 
@@ -8,14 +9,15 @@ private:
     string msg_;
 public:
     StackFullException(const string& msg) :
-            msg_(msg) {
+        msg_(msg) {
     }
-    StackFullException();
+    StackFullException(void);
     ~StackFullException() {
     }
 
-    string getMessage() const {
+    string getMessage(void) const {
         return (msg_);
     }
 };
+
 #endif // STACKFULLEXCEPTION_H

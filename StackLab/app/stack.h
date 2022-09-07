@@ -11,16 +11,16 @@ private:
     int maxSize; // TODO comment
     string *stackItems{nullptr};
 public:
-    Stack();
+    Stack(void);
     Stack(int s);
     virtual ~Stack();
     void push(string);
-    string pop();
-    bool isFull();
-    bool isEmpty();
-    string peek();
-    int size();
-    string printStackUp();
+    string pop(void);
+    bool isFull(void);
+    bool isEmpty(void);
+    string peek(void);
+    int size(void);
+    string printStackUp(void);
 };
 
 #endif // STACK_H
