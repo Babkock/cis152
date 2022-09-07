@@ -8,6 +8,6 @@ TEMPLATE = app
 
 INCLUDEPATH += ../app
 SOURCES += ../app/stack.cpp \
-           ../app/stackemptyexception.cpp \
-           ../app/stackfullexception.cpp\
-           tst_stacktest.cpp
+    ../app/stackemptyexception.cpp \
+	../app/stackfullexception.cpp\
+	tst_stacktest.cpp

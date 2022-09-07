@@ -1,21 +1,24 @@
+/*
+ * Array-Based Stack Implementation Lab
+ * CIS 152 - Data Structures
+ * Tanner Babcock
+ * September 7, 2022
+*/
 #ifndef STACKFULLEXCEPTION_H
 #define STACKFULLEXCEPTION_H
 
 #include <string>
-using namespace std;
 
 class StackFullException {
 private:
-    string msg_;
+    std::string msg_;
 public:
-    StackFullException(const string& msg) :
-        msg_(msg) {
-    }
+    StackFullException(const std::string& msg) :
+        msg_(msg) { }
     StackFullException(void);
-    ~StackFullException() {
-    }
+    ~StackFullException() { }
 
-    string getMessage(void) const {
+    std::string getMessage(void) const {
         return (msg_);
     }
 };

@@ -1,6 +1,13 @@
+/*
+ * Array-Based Stack Implementation Lab
+ * CIS 152 - Data Structures
+ * Tanner Babcock
+ * September 7, 2022
+*/
 #include "stack.h"
 #include "stackfullexception.h"
 #include "stackemptyexception.h"
+using namespace std;
 
 Stack::Stack(void) {
     maxSize = 5;
@@ -18,17 +25,17 @@ Stack::~Stack() {
 }
 
 bool Stack::isFull(void) {
-    return top == maxSize - 1; // TODO comment
+    return top == maxSize - 1;
+    /* To determine if the stack is full, this function compares top of the stack to the maximum size of the stack.
+     * If the newest element is the same as the max size, it means there is no room for other elements */
 }
 
 bool Stack::isEmpty(void) {
-    // TODO
-    return false; // Possibly you will remove this line, this is for running Unit Tests before writing code
+    return top == -1;
 }
 
 int Stack::size(void) {
-    // TODO
-    return -1; // Possibly you will remove this line, this is for running Unit Tests before writing code
+    return top + 1;
 }
 
 string Stack::peek(void) {
@@ -39,16 +46,23 @@ string Stack::peek(void) {
 
 string Stack::pop(void) {
     string item = "";
-    // TODO
-    return item; // Possibly you will remove this line, this is for running Unit Tests before writing code
+    item = stackItems[top];
+    stackItems[top] = "";
+    top--;
+    return item;
 }
 
 void Stack::push(string item) {
-    //TODO
+    if (top == maxSize - 1)
+        throw (StackFullException("Stack is full!"));
+    top++;
+    stackItems[top] = item;
 }
 
 string Stack::printStackUp(void) {
     string StackString = "";
-    // TODO
+    for (int x = 0; x < maxSize - 1; x++) {
+        StackString += stackItems[x] + "\n";
+    }
     return StackString; // Possibly you will remove this line, this is for running Unit Tests before writing code
 }

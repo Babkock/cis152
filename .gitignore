@@ -4,4 +4,6 @@ Can
 Abstract
 *.o
 DerivedClasses
+build*
+build*/*
 

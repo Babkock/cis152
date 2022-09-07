@@ -1,21 +1,24 @@
+/*
+ * Array-Based Stack Implementation Lab
+ * CIS 152 - Data Structures
+ * Tanner Babcock
+ * September 7, 2022
+*/
 #ifndef STACKEMPTYEXCEPTION_H
 #define STACKEMPTYEXCEPTION_H
 
 #include <string>
-using namespace std;
 
 class StackEmptyException {
 private:
-    string msg_;
+    std::string msg_;
 public:
-    StackEmptyException(const string& msg) :
-        msg_(msg) {
-    }
-    StackEmptyException();
-    ~StackEmptyException() {
-    }
+    StackEmptyException(const std::string& msg) :
+        msg_(msg) { }
+    StackEmptyException(void);
+    ~StackEmptyException() { }
 
-    string getMessage() const {
+    std::string getMessage(void) const {
         return (msg_);
     }
 };

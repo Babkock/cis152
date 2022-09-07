@@ -25,3 +25,10 @@ This is my repository for my Data Structures class.
 |     1 | Inheritance and Polymorphism: Derived Classes | [[https://gitlab.com/tbhomework/cis152/-/tree/main/DerivedClasses][DerivedClasses]]      |
 |     2 | Abstract Class                                | [[https://gitlab.com/tbhomework/cis152/-/blob/main/AbstractBabcock.cpp][AbstractBabcock.cpp]] |
 |     3 | Interfaces and Polymorphism                   | [[https://gitlab.com/tbhomework/cis152/-/blob/main/InterfacesBabcock.cpp][InterfacesBabcock.cpp]] |
+
+* Module 3
+
+| Topic | Assignment                   | Link             |
+|-------+------------------------------+------------------|
+|     1 | Array-Based Stack Implementation Lab | [[https://gitlab.com/tbhomework/cis152/-/tree/main/StackLab][StackLab]]   |
+|     1 | Call Stack Lab               | [[https://gitlab.com/tbhomework/cis152/-/blob/main/callStackBabcock.cpp][callStackBabcock.cpp]] |
