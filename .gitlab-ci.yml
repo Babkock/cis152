@@ -14,6 +14,7 @@ build:
     - make
     - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
+    - g++ callStackBabcock.cpp -Wall -O2 -o callStack
   artifacts:
     paths:
       - Iterators
@@ -22,4 +23,5 @@ build:
       - Abstract
       - DerivedClasses/DerivedClasses
       - Interfaces
+      - callStack
 
