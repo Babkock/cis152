@@ -5,6 +5,7 @@
  * Course: CIS 152 - Data Structures
  * Version: 1.0
  * OS: Void GNU/Linux
+ * Complexity: O(1)
  * IDE: Emacs
  * Copyright : This is my own original work based
  * on specifications issued by our instructor.
