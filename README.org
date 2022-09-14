@@ -33,3 +33,5 @@ This is my repository for my Data Structures class.
 |     1 | Array-Based Stack Implementation Lab | [[https://gitlab.com/tbhomework/cis152/-/tree/main/StackLab][StackLab]]   |
 |     1 | Call Stack Lab               | [[https://gitlab.com/tbhomework/cis152/-/blob/main/callStackBabcock.cpp][callStackBabcock.cpp]] |
 |     2 | Towers of Hanoi              | [[https://gitlab.com/tbhomework/cis152/-/blob/main/TowersOfHanoiBabcock.cpp][TowersOfHanoiBabcock.cpp]] |
+
+* Module 4
