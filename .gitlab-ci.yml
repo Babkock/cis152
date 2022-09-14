@@ -15,6 +15,7 @@ build:
     - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
+    - g++ StackApplicationBabcock.cpp -Wall -O2 -o StackApplication
   artifacts:
     paths:
       - Iterators
