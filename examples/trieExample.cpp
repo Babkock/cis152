@@ -25,7 +25,7 @@ void insert(TrieNode *root, string key) {
     TrieNode *crawl = root;
     int index;
 
-    for (int i = 0; i < key.length(); i++) {
+    for (unsigned int i = 0; i < key.length(); i++) {
         index = key[i] - 'a';
         if (!(crawl->children[index]))
             crawl->children[index] = getNode();
@@ -41,7 +41,7 @@ bool search(TrieNode *root, string key) {
     TrieNode *crawl = root;
     int index;
 
-    for (int i = 0; i < key.length(); i++) {
+    for (unsigned int i = 0; i < key.length(); i++) {
         index = key[i] - 'a';
         if ((!crawl->children[index]))
             return false;
