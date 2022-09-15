@@ -16,6 +16,12 @@ build:
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
     - g++ StackApplicationBabcock.cpp -Wall -O2 -o StackApplication
+    - cd examples
+    - g++ BITexample.cpp -Wall -O2 -o bit
+    - g++ example.cpp -Wall -O2 -o example
+    - g++ stackExample.cpp -Wall -O2 -o stack
+    - g++ trieExample.cpp -Wall -O2 -o trie
+    - cd ..
   artifacts:
     paths:
       - Iterators
@@ -26,4 +32,8 @@ build:
       - Interfaces
       - callStack
       - StackApplication
+      - examples/bit
+      - examples/example
+      - examples/stack
+      - examples/trie
 

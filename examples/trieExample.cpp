@@ -1,5 +1,4 @@
 #include <iostream>
-#include <bits/stdc++.h>
 using namespace std;
 
 const int ALPHABET_SIZE = 26;
