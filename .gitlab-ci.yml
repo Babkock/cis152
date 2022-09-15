@@ -25,4 +25,5 @@ build:
       - DerivedClasses/DerivedClasses
       - Interfaces
       - callStack
+      - StackApplication
 

@@ -1,11 +1,10 @@
 /**********************************
- * Name: Basic OO and Encapsulation
+ * Name: Towers of Hanoi
  * Author: Tanner Babcock
  * Created: September 11, 2022
  * Course: CIS 152 - Data Structures
  * Version: 1.0
  * OS: Void GNU/Linux
- * Complexity: O(1)
  * IDE: Emacs
  * Copyright : This is my own original work based
  * on specifications issued by our instructor.
@@ -17,4 +16,8 @@
 #include <iostream>
 using namespace std;
 
+int main(void) {
+	cout << "hello" << endl;
+	return 0;
+}
 

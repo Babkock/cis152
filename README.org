@@ -35,3 +35,7 @@ This is my repository for my Data Structures class.
 |     2 | Towers of Hanoi              | [[https://gitlab.com/tbhomework/cis152/-/blob/main/TowersOfHanoiBabcock.cpp][TowersOfHanoiBabcock.cpp]] |
 
 * Module 4
+
+| Topic | Assignment                  | Link             |
+|-------+-----------------------------+------------------|
+|     1 | Convert Infix to Postfix Using Stack | [[https://gitlab.com/tbhomework/cis152/-/blob/main/StackApplicationBabcock.cpp][StackApplicationBabcock.cpp]] |

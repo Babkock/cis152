@@ -2,6 +2,7 @@ a.out
 Iterators
 Can
 Abstract
+StackApplication
 *.o
 *.zip
 DerivedClasses
