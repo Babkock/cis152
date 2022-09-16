@@ -1,21 +1,21 @@
 #ifndef QUEUEEMPTYEXCEPTION_H
 #define QUEUEEMPTYEXCEPTION_H
-#include<string>
+
+#include <string>
 using namespace std;
 
-class queueEmptyException
-{
+class queueEmptyException {
 private:
     string msg_;
 public:
     queueEmptyException(const string& msg) :
-            msg_(msg) {
+        msg_(msg) {
     }
-    queueEmptyException();
+    queueEmptyException(void);
     ~queueEmptyException() {
     }
 
-    string getMessage() const {
+    string getMessage(void) const {
         return (msg_);
     }
 };

@@ -2,8 +2,7 @@
 #include "queueemptyexception.h"
 #include "queuefullexception.h"
 
-queue::queue()
-{
+queue::queue(void) {
     maxSize = 5;
     queueSize = 0;
     head = -1;
@@ -11,7 +10,7 @@ queue::queue()
     queueItems = new string[maxSize];
 }
 
-queue::queue(int s){
+queue::queue(int s) {
     maxSize = s;
     queueSize = 0;
     head = -1;
@@ -19,39 +18,40 @@ queue::queue(int s){
     queueItems = new string[maxSize];
 }
 
-queue::~queue(){}
+queue::~queue(void) { }
 
-void queue::enqueue(string){
+void queue::enqueue(string) {
    //TODO
 }
 
-string queue::dequeue(){
+string queue::dequeue(void) {
     string item = "";
     // TODO
     return item; // Possibly you will remove this line, this is for running Unit Tests before writing code
 }
 
-bool queue::isFull(){
-     //TODO
-     return false; // Possibly you will remove this line, this is for running Unit Tests before writing code
-}
-bool queue::isEmpty(){
+bool queue::isFull(void) {
      //TODO
      return false; // Possibly you will remove this line, this is for running Unit Tests before writing code
 }
 
-string queue::peek(){
+bool queue::isEmpty(void) {
+     //TODO
+     return false; // Possibly you will remove this line, this is for running Unit Tests before writing code
+}
+
+string queue::peek(void) {
     string item = "";
     // TODO
     return item; // Possibly you will remove this line, this is for running Unit Tests before writing code
 }
 
-int queue::size(){
+int queue::size(void) {
      //TODO
     return -1; // Possibly you will remove this line, this is for running Unit Tests before writing code
 }
 
-string queue::printQueue(){
+string queue::printQueue(void) {
     string StackString = "";
     // TODO
     return StackString; // Possibly you will remove this line, this is for running Unit Tests before writing code
