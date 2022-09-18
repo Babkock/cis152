@@ -10,40 +10,33 @@ class queueTests : public QObject
     Q_OBJECT
 
 public:
-    queueTests();
-    ~queueTests();
-
+    queueTests(void);
+    ~queueTests(void);
 private slots:
-    void testCreateQueue();
-    void testIsEmptyTrue();
-    void testIsEmptyFalse();
-    void testIsFullTrue();
-    void testIsFullFalse();
-    void testEnqueue();
-    void testEnqueueFullQueue();
-    void testDequeue();
-    void testDeqeueEmptyQueue();
-    void testWrapAround();
-    void testPeek();
-    void testPeekEmptyQueue();
-    void testSizeZero();
-    void testSizeNonZero();
-    void testPrintEmptyQueue();
-    void testPrintQueue();
-    void testPrintQueueWrapAround();
+    void testCreateQueue(void);
+    void testIsEmptyTrue(void);
+    void testIsEmptyFalse(void);
+    void testIsFullTrue(void);
+    void testIsFullFalse(void);
+    void testEnqueue(void);
+    void testEnqueueFullQueue(void);
+    void testDequeue(void);
+    void testDeqeueEmptyQueue(void);
+    void testWrapAround(void);
+    void testPeek(void);
+    void testPeekEmptyQueue(void);
+    void testSizeZero(void);
+    void testSizeNonZero(void);
+    void testPrintEmptyQueue(void);
+    void testPrintQueue(void);
+    void testPrintQueueWrapAround(void);
 };
 
-queueTests::queueTests()
-{
+queueTests::queueTests(void) { }
 
-}
+queueTests::~queueTests(void) { }
 
-queueTests::~queueTests()
-{
-
-}
-
-void queueTests::testCreateQueue(){
+void queueTests::testCreateQueue(void) {
     // ARRANGE
     queue myQueue = queue(1);
     bool actual;
@@ -53,7 +46,7 @@ void queueTests::testCreateQueue(){
     QVERIFY(actual); // verify true
 }
 
-void queueTests::testIsEmptyTrue(){
+void queueTests::testIsEmptyTrue(void) {
     // ARRANGE
     queue myQueue = queue(1);
     bool actual;
@@ -63,7 +56,7 @@ void queueTests::testIsEmptyTrue(){
     QVERIFY(actual); // verify true
 }
 
-void queueTests::testIsEmptyFalse(){
+void queueTests::testIsEmptyFalse(void) {
     // ARRANGE
     queue myQueue = queue(1);
     bool actual;
@@ -75,7 +68,7 @@ void queueTests::testIsEmptyFalse(){
     QVERIFY(actual); // verify true
 }
 
-void queueTests::testIsFullTrue(){
+void queueTests::testIsFullTrue(void) {
     // ARRANGE
     queue myQueue = queue(1);
     bool actual;
@@ -87,7 +80,7 @@ void queueTests::testIsFullTrue(){
     QVERIFY(actual); // verify true
 }
 
-void queueTests::testIsFullFalse(){
+void queueTests::testIsFullFalse(void) {
     // ARRANGE
     queue myqueue = queue(2);
     string item = "C++ is Fun!";
@@ -100,7 +93,7 @@ void queueTests::testIsFullFalse(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testEnqueue(){
+void queueTests::testEnqueue(void) {
     // ARRANGE
     queue myqueue = queue(1);
     string item = "C++ is Fun!";
@@ -113,7 +106,7 @@ void queueTests::testEnqueue(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testEnqueueFullQueue(){
+void queueTests::testEnqueueFullQueue(void) {
     // ARRANGE
     queue myqueue = queue(1);
     string item = "queueItem";
@@ -123,7 +116,7 @@ void queueTests::testEnqueueFullQueue(){
     QVERIFY_EXCEPTION_THROWN(myqueue.enqueue(item+"2"), queueFullException);
 }
 
-void queueTests::testDequeue(){
+void queueTests::testDequeue(void) {
     // ARRANGE
     queue myqueue = queue(1);
     string item = "queueItem";
@@ -136,7 +129,7 @@ void queueTests::testDequeue(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testDeqeueEmptyQueue(){
+void queueTests::testDeqeueEmptyQueue(void) {
     // ARRANGE
     queue myqueue = queue(1);
     // ACT
@@ -144,9 +137,9 @@ void queueTests::testDeqeueEmptyQueue(){
     QVERIFY_EXCEPTION_THROWN(myqueue.dequeue(), queueEmptyException);
 }
 
-void queueTests::testWrapAround(){
+void queueTests::testWrapAround(void) {
     // ARRANGE
-    queue myQueue = queue(2);
+    queue myQueue = queue(3);
     string item = "QueueItem";
     string actual, expected;
     expected = "QueueItem3";
@@ -161,7 +154,7 @@ void queueTests::testWrapAround(){
     QCOMPARE(expected, actual);
 }
 
-void queueTests::testPeek(){
+void queueTests::testPeek(void) {
     // ARRANGE
     queue myqueue = queue(1);
     string item = "queueItem";
@@ -174,7 +167,7 @@ void queueTests::testPeek(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testPeekEmptyQueue(){
+void queueTests::testPeekEmptyQueue(void) {
     // ARRANGE
     queue myqueue = queue(1);
     // ACT
@@ -182,7 +175,7 @@ void queueTests::testPeekEmptyQueue(){
     QVERIFY_EXCEPTION_THROWN(myqueue.peek(), queueEmptyException);
 }
 
-void queueTests::testSizeZero(){
+void queueTests::testSizeZero(void) {
     // ARRANGE
     queue myqueue = queue(1);
     string item = "queueItem";
@@ -194,7 +187,7 @@ void queueTests::testSizeZero(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testSizeNonZero(){
+void queueTests::testSizeNonZero(void) {
     // ARRANGE
     queue myqueue = queue(2);
     string item = "queueItem";
@@ -208,7 +201,7 @@ void queueTests::testSizeNonZero(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testPrintEmptyQueue(){
+void queueTests::testPrintEmptyQueue(void) {
     // ARRANGE
     queue myqueue = queue(1);
     string actual, expected;
@@ -219,7 +212,7 @@ void queueTests::testPrintEmptyQueue(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testPrintQueue(){
+void queueTests::testPrintQueue(void) {
     // ARRANGE
     queue myqueue = queue(2);
     string item = "queueItem";
@@ -233,7 +226,7 @@ void queueTests::testPrintQueue(){
     QCOMPARE(actual, expected);
 }
 
-void queueTests::testPrintQueueWrapAround(){
+void queueTests::testPrintQueueWrapAround(void) {
     // ARRANGE
     queue myQueue = queue(2);
     string item = "QueueItem";

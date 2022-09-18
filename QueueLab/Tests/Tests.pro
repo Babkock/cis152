@@ -8,7 +8,7 @@ TEMPLATE = app
 
 INCLUDEPATH += ../app
 
-SOURCES +=  ../app/queue.cpp \
-            ../app/queueemptyexception.cpp \
-            ../app/queuefullexception.cpp \
-            tst_queuetests.cpp
+SOURCES += ../app/queue.cpp \
+    ../app/queueemptyexception.cpp \
+	../app/queuefullexception.cpp \
+	tst_queuetests.cpp
