@@ -7,21 +7,34 @@ build:
     - apt update && apt -y install make autoconf
   script:
     - g++ IteratorsBabcock.cpp -Wall -O2 -o Iterators
+    - strip Iterators
     - g++ CanBabcock.cpp -Wall -O2 -o Can
+    - strip Can
     - g++ SuperClassBabcock.cpp -Wall -O2 -o SuperClass
+    - strip SuperClass
     - g++ AbstractBabcock.cpp -Wall -O2 -o Abstract
+    - strip Abstract
     - cd DerivedClasses
     - make
     - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
+    - strip Interfaces
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
+    - strip callStack
     - g++ StackApplicationBabcock.cpp -Wall -O2 -o StackApplication
+    - strip StackApplication
     - cd examples
     - g++ BITexample.cpp -Wall -O2 -o bit
     - g++ example.cpp -Wall -O2 -o example
     - g++ stackExample.cpp -Wall -O2 -o stack
     - g++ trieExample.cpp -Wall -O2 -o trie
     - cd ..
+    - g++ ticketsQueue.cpp -Wall -O2 -o ticketsQueue
+    - strip ticketsQueue
+    - g++ arrayLinkedListBabcock.cpp -Wall -O2 -o arrayLinkedList
+    - strip arrayLinkedList
+    - g++ singlyLinkedListBabcock.cpp -Wall -O2 -o singlyLinkedList
+    - strip singlyLinkedList
   artifacts:
     paths:
       - Iterators
@@ -36,4 +49,7 @@ build:
       - examples/example
       - examples/stack
       - examples/trie
+      - ticketsQueue
+      - arrayLinkedList
+      - singlyLinkedList
 
