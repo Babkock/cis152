@@ -28,6 +28,7 @@ build:
     - g++ example.cpp -Wall -O2 -o example
     - g++ stackExample.cpp -Wall -O2 -o stack
     - g++ trieExample.cpp -Wall -O2 -o trie
+    - g++ queue.cpp -Wall -O2 -o queue
     - cd ..
     - g++ ticketsQueue.cpp -Wall -O2 -o ticketsQueue
     - strip ticketsQueue
