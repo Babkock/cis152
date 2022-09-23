@@ -19,7 +19,15 @@
 #include <ctime>
 using namespace std;
 
+int lineSize;
+extern int lineSize;
+int totalTickets;
+extern int totalTickets;
+
 int main(void) {
-    cout << "hello world" << endl;
+    srand(time(NULL));
+	lineSize = rand() % 1000;
+	cout << "lineSize = " << lineSize << endl;
     return 0;
 }
+
