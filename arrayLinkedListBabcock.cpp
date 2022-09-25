@@ -51,12 +51,12 @@ private:
 public:
     LinkedList(void) {
         maxSize = 5;
-        size = -1;
+        size = 0;
         list = new string[maxSize];
     }
     LinkedList(int s) {
         maxSize = s;
-        size = -1;
+        size = 0;
         list = new string[maxSize];
     }
     LinkedList(int m, int s) {
@@ -87,10 +87,10 @@ public:
         for (int x = 0; x < size; x++) {
             if (list[x] == e) {
                 list[x] = "";
-                size--;
                 break;
             }
         }
+        size--;
     }
     void replace(string e1, string e2) {
         if (isEmpty())
@@ -124,7 +124,6 @@ int main(void) {
     cout << one->print() << endl;
     cout << "Size of first list: " << one->getSize() << endl;
 
-    one->remove("Tres");
     one->remove("Dos");
     cout << "Printing first list" << endl;
     cout << one->print() << endl;
@@ -133,10 +132,32 @@ int main(void) {
 
     try {
         one->remove("Uno");
+        one->remove("Dos");
     } catch (ListEmptyException e) {
         cerr << "List empty error: " << e.getMessage() << endl;
     }
     delete one;
+
+    two->insert("one");
+    two->insert("two");
+    two->insert("three");
+    two->insert("four");
+    cout << "Printing second list" << endl;
+    cout << two->print() << endl;
+    cout << "Size of second list: " << two->getSize() << endl;
+
+    two->remove("two");
+    cout << "Printing second list" << endl;
+    cout << two->print() << endl;
+    cout << "Size of second list: " << two->getSize() << endl;
+
+    try {
+        two->insert("five");
+        two->insert("six");
+    } catch (ListFullException e) {
+        cerr << "List full error: " << e.getMessage() << endl;
+    }
+    delete two;
 
     return 0;
 }
