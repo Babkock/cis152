@@ -17,6 +17,9 @@ build:
     - cd DerivedClasses
     - make
     - cd ..
+    - cd ListBasedStack
+    - make
+    - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - strip Interfaces
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
@@ -43,6 +46,7 @@ build:
       - SuperClass
       - Abstract
       - DerivedClasses/DerivedClasses
+      - ListBasedStack/ListBasedStack
       - Interfaces
       - callStack
       - StackApplication

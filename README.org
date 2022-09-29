@@ -48,3 +48,9 @@ This is my repository for my Data Structures class.
 |     1 | First Come First Serve Tickets | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ticketsQueue.cpp][ticketsQueue.cpp]] |
 |     2 | Array-Based Linked List Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/arrayLinkedListBabcock.cpp][arrayLinkedListBabcock.cpp]] |
 |     2 | Singly Linked List Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/singlyLinkedListBabcock.cpp][singlyLinkedListBabcock.cpp]] |
+
+* Module 6
+
+| Topic | Assignment              | Link             |
+|-------+-------------------------+------------------|
+|     1 | List-Based Stack Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedStack][ListBasedStack]] |

@@ -38,10 +38,32 @@ int main(void) {
 	b->pop();
 	b->push("five");
 	cout << "Printing stack" << endl;
-	cout << b->printStackUp();
+	cout << b->printStackUp() << endl;
+
+	stack *c = new stack("uno");
+	c->push("dos");
+	c->push("tres");
+	c->push("quatro");
+	c->push("cinco");
+	c->push("sais");
+	c->push("seite");
+	c->push("ocho");
+	c->push("nueve");
+	
+	cout << "The size of the third stack is " << c->getSize() << endl;
+	cout << "Printing stack" << endl;
+	cout << c->printStackUp();
+
+	try {
+		c->push("dies");
+		c->push("11");
+	} catch (StackFullException e) {
+		cerr << "Stack full exception: " << e.getMessage() << endl;
+	}
 
 	delete a;
 	delete b;
+	delete c;
     return 0;
 }
 
