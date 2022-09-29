@@ -6,6 +6,7 @@ StackApplication
 *.o
 *.zip
 DerivedClasses
+ListBasedStack
 build*
 build*/*
 
