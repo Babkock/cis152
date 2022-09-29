@@ -24,9 +24,24 @@ int main(void) {
 	cout << "The size of the first stack is " << a->getSize() << endl;
 
 	cout << "Printing stack" << endl;
-	cout << a->printStackUp();
+	cout << a->printStackUp() << endl;
+
+	stack *b = new stack("one");
+	b->push("two");
+	b->push("three");
+	b->push("four");
+	cout << "The size of the second stack is " << b->getSize() << endl;
+
+	cout << "Printing stack" << endl;
+	cout << b->printStackUp() << endl;
+
+	b->pop();
+	b->push("five");
+	cout << "Printing stack" << endl;
+	cout << b->printStackUp();
 
 	delete a;
+	delete b;
     return 0;
 }
 
