@@ -5,8 +5,8 @@ Abstract
 StackApplication
 *.o
 *.zip
-DerivedClasses
-ListBasedStack
+DerivedClasses/DerivedClasses
+ListBasedStack/ListBasedStack
 build*
 build*/*
 

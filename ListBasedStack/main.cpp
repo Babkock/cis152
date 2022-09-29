@@ -23,6 +23,9 @@ int main(void) {
     a->push("goodbye");
 	cout << "The size of the first stack is " << a->getSize() << endl;
 
+	cout << "Printing stack" << endl;
+	cout << a->printStackUp();
+
 	delete a;
     return 0;
 }
