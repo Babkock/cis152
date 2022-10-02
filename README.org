@@ -54,3 +54,4 @@ This is my repository for my Data Structures class.
 | Topic | Assignment              | Link             |
 |-------+-------------------------+------------------|
 |     1 | List-Based Stack Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedStack][ListBasedStack]] |
+|     2 | List-Based Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedQueue][ListBasedQueue]] |

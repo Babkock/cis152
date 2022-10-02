@@ -20,6 +20,9 @@ build:
     - cd ListBasedStack
     - make
     - cd ..
+    - cd ListBasedQueue
+    - make
+    - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - strip Interfaces
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
@@ -47,6 +50,7 @@ build:
       - Abstract
       - DerivedClasses/DerivedClasses
       - ListBasedStack/ListBasedStack
+      - ListBasedQueue/ListBasedQueue
       - Interfaces
       - callStack
       - StackApplication
