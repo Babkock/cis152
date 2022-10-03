@@ -19,27 +19,29 @@
 #include <string>
 #include <list>
 #include <iterator>
-using namespace std;
+#include "queueemptyexception.h"
+#include "queuefullexception.h"
 
 class queue {
 private:
     // Members
     int head;
     int tail;
-    int queueSize;
-    int maxSize;
-    list<string> qList;
+    int size;
+    std::list<std::string> *l = {nullptr};
 public:
     queue(void);
-    queue(int s);
+    queue(std::string e);
     virtual ~queue(void);
-    void enqueue(string);
-    string dequeue(void);
+    void enqueue(std::string item);
+    std::string dequeue(void);
     bool isFull(void);
     bool isEmpty(void);
-    string peek(void);
-    int size(void);
-    string printQueue(void);
+    std::string peek(void);
+    int getSize(void);
+    int getHead(void);
+    int getTail(void);
+    std::string printQueue(void);
 };
 
 #endif

@@ -19,7 +19,6 @@ using namespace std;
 
 const int MAXSIZE = 10;
 
-
 stack::stack(void) {
     l = new list<string>;
     size = 0;
@@ -72,11 +71,11 @@ string stack::printStackUp(void) {
     if (isEmpty())
         throw (StackEmptyException("Stack is empty!"));
     string stackString = "";
-	auto l_front = l->begin();
+    auto l_front = l->begin();
 
     for (int x = 0; x < size; x++) {
         stackString += *l_front + '\n';
-		advance(l_front, 1);
+        advance(l_front, 1);
     }
     return stackString;
 }

@@ -14,13 +14,54 @@
  * other fellow student(s) access to my program.
 *********************************************/
 #include <iostream>
-#include <iterator>
-#include <list>
 #include <string>
 #include "queue.h"
 using namespace std;
 
 int main(void) {
-    cout << "hello world" << endl;
+    queue *a = new queue("hello");
+    a->enqueue("goodbye");
+    cout << "The size of the first queue is " << a->getSize() << endl;
+
+    cout << "Printing first queue" << endl;
+    cout << a->printQueue() << endl;
+
+    queue *b = new queue("one");
+    b->enqueue("two");
+    b->enqueue("three");
+    b->enqueue("four");
+    cout << "The size of the second queue is " << b->getSize() << endl;
+    cout << "The head is " << b->getHead() << " and the tail is " << b->getTail() << endl;
+
+    b->dequeue();
+    b->enqueue("five");
+    cout << "Printing second queue" << endl;
+    cout << b->printQueue() << endl;
+
+    queue *c = new queue("1");
+    c->enqueue("2");
+    c->enqueue("three");
+    c->enqueue("quatro");
+    c->enqueue("cinq");
+    c->enqueue("six");
+    c->enqueue("seven");
+    c->enqueue("eight");
+    c->enqueue("neuf");
+
+    cout << "The size of the third queue is " << c->getSize() << endl;
+    cout << "The head is " << c->getHead() << " and the tail is " << c->getTail() << endl;
+    cout << "Printing third queue" << endl;
+    cout << c->printQueue();
+
+    try {
+        c->enqueue("ten");
+        c->enqueue("eleven");
+    } catch (queueFullException e) {
+        cerr << "Queue full exception: " << e.getMessage() << endl;
+    }
+
+    delete a;
+    delete b;
+    delete c;
     return 0;
 }
