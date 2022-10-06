@@ -55,3 +55,9 @@ This is my repository for my Data Structures class.
 |-------+-------------------------+------------------|
 |     1 | List-Based Stack Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedStack][ListBasedStack]] |
 |     2 | List-Based Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedQueue][ListBasedQueue]] |
+
+* Module 7
+
+| Topic | Assignment                         | Link          |
+|-------+------------------------------------+---------------|
+| 1     | Priority Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueBabcock.cpp][PriorityQueueBabcock.cpp]]  |
