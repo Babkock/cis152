@@ -1,7 +1,7 @@
-/*****************************************
+/***************************************
  * Name: Priority Queue Implementation
  * Author: Tanner Babcock
- * Created: October 7, 2022
+ * Created: October 8, 2022
  * Course: CIS 152 - Data Structures
  * Version: 1.0
  * OS: Void GNU/Linux
@@ -12,7 +12,7 @@
  * work. I have not used unauthorized source code,
  * either modified or unmodified. I have not given
  * other fellow student(s) access to my program.
-******************************************/
+****************************************/
 #ifndef QUEUEEMPTYEXCEPTION_H
 #define QUEUEEMPTYEXCEPTION_H
 

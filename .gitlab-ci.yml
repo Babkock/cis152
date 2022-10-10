@@ -40,8 +40,9 @@ build:
     - strip ticketsQueue
     - g++ arrayLinkedListBabcock.cpp -Wall -O2 -o arrayLinkedList
     - strip arrayLinkedList
-    - g++ singlyLinkedListBabcock.cpp -Wall -O2 -o singlyLinkedList
-    - strip singlyLinkedList
+    - g++ PriorityQueueBabcock.cpp -Wall -O2 -o PriorityQueue
+    - strip PriorityQueue
+    - g++ PriorityQueueApplicationBabcock.cpp -Wall -O2 -o PriorityQueueApplication
   artifacts:
     paths:
       - Iterators
@@ -60,5 +61,6 @@ build:
       - examples/trie
       - ticketsQueue
       - arrayLinkedList
-      - singlyLinkedList
+      - PriorityQueue
+      - PriorityQueueApplication
 

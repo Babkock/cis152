@@ -3,6 +3,7 @@ Iterators
 Can
 Abstract
 StackApplication
+PriorityQueueApplication
 *.o
 *.zip
 DerivedClasses/DerivedClasses

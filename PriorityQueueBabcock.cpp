@@ -1,7 +1,7 @@
 /*****************************************
  * Name: Priority Queue Implementation
  * Author: Tanner Babcock
- * Created: October 7, 2022
+ * Created: October 8, 2022
  * Course: CIS 152 - Data Structures
  * Version: 1.0
  * OS: Void GNU/Linux
@@ -112,6 +112,31 @@ string PriorityQueue::printQueue(void) {
 queueEmptyException::queueEmptyException(void) { }
 
 int main(void) {
+    PriorityQueue *one = new PriorityQueue("first", 1, 'B');
+	PriorityQueue *two = new PriorityQueue("second", 2, 'B');
+	PriorityQueue *three = new PriorityQueue("third", 3, 'B');
+
+	PriorityQueue *uno = new PriorityQueue("uno", 1, 'D');
+	PriorityQueue *dos = new PriorityQueue("dos", 2, 'D');
+	PriorityQueue *tres = new PriorityQueue("tres", 3, 'D');
+	PriorityQueue *quatro = new PriorityQueue("quatro", 4, 'D');
+
+	PriorityQueue *a = new PriorityQueue("one", 1, 'A');
+	PriorityQueue *b = new PriorityQueue("two", 2, 'A');
+
+	one->printQueue();
+	two->printQueue();
+	three->printQueue();
+
+	delete one;
+	delete two;
+	delete three;
+	delete uno;
+	delete dos;
+	delete tres;
+	delete quatro;
+	delete a;
+	delete b;
 	return 0;
 }
 

@@ -61,3 +61,4 @@ This is my repository for my Data Structures class.
 | Topic | Assignment                         | Link          |
 |-------+------------------------------------+---------------|
 | 1     | Priority Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueBabcock.cpp][PriorityQueueBabcock.cpp]]  |
+| 2     | Priority Queue Application    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueApplicationBabcock.cpp][PriorityQueueApplicationBabcock.cpp]] |
