@@ -8,10 +8,9 @@
 #include <iostream>
 #include "sortingSearching.h"
 
-/* The selection sort compares the value of each
- * element with the value of each other element, to
- * try to find the minimum and place at the
- * beginning. */
+/* The selection sort compares the value of each element
+ * with the value of each other element, to try to find
+ * the minimum and place at the beginning. */
 void selection(int *a, int size) {
     int min;
     for (int x = 0; x < (size - 1); x++) {
