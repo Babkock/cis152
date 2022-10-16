@@ -23,4 +23,7 @@ void insertionDriver(void);
 void printArray(int *a, int size);
 void swap(int *s, int *d);
 
+const int TRIALONE = 10000;
+const int TRIALTWO = 100000;
+
 #endif

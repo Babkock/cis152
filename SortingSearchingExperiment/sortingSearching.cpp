@@ -33,6 +33,9 @@ int main(void) {
     cout << "Selection driver" << endl;
     selectionDriver();
 
+    cout << "Insertion driver" << endl;
+    insertionDriver();
+
     int arr2[] = { 5, 1, 4, 9, 8, 7, 2, 3 };
     const int ARR2SIZE = 8;
 
