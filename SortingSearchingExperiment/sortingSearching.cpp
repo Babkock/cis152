@@ -27,13 +27,21 @@ int main(void) {
     cout << "The index of 55 in the array is: " << binarySearch(arr, 0, ARRSIZE, 55) << endl;
     /* should print 9 */
 
+    cout << "Bubble driver" << endl;
+    bubbleDriver();
+
+    cout << "Selection driver" << endl;
+    selectionDriver();
+
     int arr2[] = { 5, 1, 4, 9, 8, 7, 2, 3 };
     const int ARR2SIZE = 8;
 
     cout << "Printing array before bubble()" << endl;
     printArray(arr2, ARR2SIZE);
     bubble(arr2, ARR2SIZE);
+    /* should be in order now */
     cout << "Printing array after bubble()" << endl;
     printArray(arr2, ARR2SIZE);
+
     return 0;
 }
