@@ -43,11 +43,10 @@ This is my repository for my Data Structures class.
 
 * Module 5
 
-| Topic | Assignment                | Link                  |
-|-------+---------------------------+-----------------------|
-|     1 | First Come First Serve Tickets | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ticketsQueue.cpp][ticketsQueue.cpp]] |
+| Topic | Assignment                             | Link                       |
+|-------+----------------------------------------+----------------------------|
+|     1 | First Come First Serve Tickets         | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ticketsQueue.cpp][ticketsQueue.cpp]]           |
 |     2 | Array-Based Linked List Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/arrayLinkedListBabcock.cpp][arrayLinkedListBabcock.cpp]] |
-|     2 | Singly Linked List Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/singlyLinkedListBabcock.cpp][singlyLinkedListBabcock.cpp]] |
 
 * Module 6
 
@@ -62,3 +61,9 @@ This is my repository for my Data Structures class.
 |-------+------------------------------------+---------------|
 | 1     | Priority Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueBabcock.cpp][PriorityQueueBabcock.cpp]]  |
 | 2     | Priority Queue Application    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueApplicationBabcock.cpp][PriorityQueueApplicationBabcock.cpp]] |
+
+* Module 8
+
+| Topic | Assignment                  | Link  |
+|-------+-----------------------------+-------|
+| 1     | Sorting and Searching Timing Experiment | [[https://gitlab.com/tbhomework/cis152/-/tree/main/SortingSearchingExperiment][SortingSearchingExperiment]] |
