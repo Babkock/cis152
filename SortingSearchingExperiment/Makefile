@@ -21,5 +21,8 @@ selection.o: selection.cpp
 insertion.o: insertion.cpp
 	g++ ${OPTS} -c $^ -o $@
 
+sortingSearching.o: sortingSearching.cpp
+	g++ ${OPTS} -c $^ -o $@
+
 clean:
 	rm sortingSearching linear.o binary.o bubble.o selection.o insertion.o sortingSearching.o
