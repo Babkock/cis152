@@ -23,6 +23,9 @@ build:
     - cd ListBasedQueue
     - make
     - cd ..
+    - cd SortingSearchingExperiment
+    - make
+    - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - strip Interfaces
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
@@ -52,6 +55,7 @@ build:
       - DerivedClasses/DerivedClasses
       - ListBasedStack/ListBasedStack
       - ListBasedQueue/ListBasedQueue
+      - SortingSearchingExperiment/sortingSearching
       - Interfaces
       - callStack
       - StackApplication

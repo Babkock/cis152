@@ -9,6 +9,7 @@ PriorityQueueApplication
 DerivedClasses/DerivedClasses
 ListBasedStack/ListBasedStack
 ListBasedQueue/ListBasedQueue
+sortingSearching
 build*
 build*/*
 
