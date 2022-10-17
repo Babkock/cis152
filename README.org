@@ -3,6 +3,8 @@
 #+EMAIL: babkock@protonmail.com
 #+LANGUAGE: en
 
+[[https://gitlab.com/tbhomework/cis152/-/raw/main/SortingSearchingExperiment/screens/binarySearch.png]]
+
 This is my repository for my Data Structures class.
 
 * Module 0
