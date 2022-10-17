@@ -23,27 +23,27 @@ void bubble(int *a, int size) {
 
 void bubbleDriver(void) {
     auto start = std::chrono::high_resolution_clock::now();
-    int arr[10000];
+    int arr[TRIALONE];
     srand(time(NULL));
 
-    for (int i = 0; i < 10000; i++) {
+    for (int i = 0; i < TRIALONE; i++) {
         arr[i] = rand() % 30;
     }
 //    printArray(arr, 10000);
-    bubble(arr, 10000);
+    bubble(arr, TRIALONE);
 //    printArray(arr, 10000);
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
     std::cout << "First bubble() took " << duration.count() << " milliseconds" << std::endl;
 
     start = std::chrono::high_resolution_clock::now();
-    int arr2[100000];
+    int arr2[TRIALTWO];
     srand(time(NULL));
 
-    for (int i = 0; i < 100000; i++) {
+    for (int i = 0; i < TRIALTWO; i++) {
         arr2[i] = rand() % 30;
     }
-    bubble(arr2, 100000);
+    bubble(arr2, TRIALTWO);
     stop = std::chrono::high_resolution_clock::now();
     duration = std::chrono::duration_cast<std::chrono::milliseconds>(stop - start);
     std::cout << "Second bubble() took " << duration.count() << " milliseconds" << std::endl;
