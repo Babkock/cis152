@@ -69,3 +69,9 @@ This is my repository for my Data Structures class.
 | Topic | Assignment                  | Link  |
 |-------+-----------------------------+-------|
 | 1     | Sorting and Searching Timing Experiment | [[https://gitlab.com/tbhomework/cis152/-/tree/main/SortingSearchingExperiment][SortingSearchingExperiment]] |
+
+* Module 9
+
+| Topic | Assignment                  | Link |
+|-------+-----------------------------+------|
+| 1     | Binary Search Tree Assignment | [[https://gitlab.com/tbhomework/cis152/-/blob/main/BinarySearchTreeBabcock.cpp][BinarySearchTreeBabcock.cpp]] |

@@ -69,5 +69,6 @@ int main(void) {
     cout << "Sum of elements in arr[0..5] after update is ";
     cout << getSum(BITree, 5) << endl;
 
+	delete BITree;
     return 0;
 }
