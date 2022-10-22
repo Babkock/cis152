@@ -14,6 +14,8 @@ build:
     - strip SuperClass
     - g++ AbstractBabcock.cpp -Wall -O2 -o Abstract
     - strip Abstract
+    - g++ BinarySearchTreeBabcock.cpp -Wall -O2 -o BinarySearchTree
+    - strip BinarySearchTree
     - cd DerivedClasses
     - make
     - cd ..
@@ -52,6 +54,7 @@ build:
       - Can
       - SuperClass
       - Abstract
+      - BinarySearchTree
       - DerivedClasses/DerivedClasses
       - ListBasedStack/ListBasedStack
       - ListBasedQueue/ListBasedQueue
