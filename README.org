@@ -75,3 +75,9 @@ This is my repository for my Data Structures class.
 | Topic | Assignment                  | Link |
 |-------+-----------------------------+------|
 | 1     | Binary Search Tree Assignment | [[https://gitlab.com/tbhomework/cis152/-/blob/main/BinarySearchTreeBabcock.cpp][BinarySearchTreeBabcock.cpp]] |
+
+* Module 10
+
+| Topic | Assignment           | Link |
+|-------+----------------------+------|
+| 1     | Binary Search Decision Tree  | [[https://gitlab.com/tbhomework/cis152/-/blob/main/DecisionTreeBabcock.cpp][DecisionTreeBabcock.cpp]] |
