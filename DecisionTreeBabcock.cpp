@@ -63,13 +63,21 @@ decision *insert(decision *root, string des, int lev = 1) {
 
 void inorder(decision *root, int lev = 1) {
     if (root != NULL) {
-        inorder(root->left);
+        inorder(root->left, lev+1);
         cout << root->level << " = " << lev << " " << root->description << endl;
-        inorder(root->right);
+        inorder(root->right, lev+1);
     }
 }
 
 int main(void) {
+    int x = 1;
+    decision *tree1 = newDecision("Do the first thing", x++);
+    tree1->right = newDecision("Do the second thing", x++);
+    tree1->left = newDecision("Do another thing", x);
+    tree1 = insert(tree1, "Do the third thing", x++);
+    tree1 = insert(tree1, "Do a different third thing", x);
+    inorder(tree1, 1);
     cout << "hello world" << endl;
+    delete tree1;
     return 0;
 }
