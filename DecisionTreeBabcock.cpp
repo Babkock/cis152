@@ -76,8 +76,20 @@ int main(void) {
     tree1->left = newDecision("Do another thing", x);
     tree1 = insert(tree1, "Do the third thing", x++);
     tree1 = insert(tree1, "Do a different third thing", x);
+    cout << "Printing first tree" << endl;
     inorder(tree1, 1);
-    cout << "hello world" << endl;
+    x = 1;
+    decision *tree2 = newDecision("Are you hungry?", x++);
+    tree2->right = newDecision("Yes: Do you have money?", x++);
+    tree2->left = newDecision("No: Do you want to see your friends?", x);
+    tree2->right->right = newDecision("Yes: Go out to eat!", x++);
+    tree2->right->left = newDecision("No: Eat at home! If you're not a second class citizen", x);
+    tree2->left->right = newDecision("Yes: Are your friends busy?", x);
+    tree2->left->left = newDecision("No: Hang out by yourself", x);
+    cout << "Printing second tree" << endl;
+    inorder(tree2, 1);
+
     delete tree1;
+    delete tree2;
     return 0;
 }
