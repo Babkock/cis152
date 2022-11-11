@@ -81,3 +81,9 @@ This is my repository for my Data Structures class.
 | Topic | Assignment           | Link |
 |-------+----------------------+------|
 | 1     | Binary Search Decision Tree  | [[https://gitlab.com/tbhomework/cis152/-/blob/main/DecisionTreeBabcock.cpp][DecisionTreeBabcock.cpp]] |
+
+* Module 12
+
+| Topic | Assignment      | Link |
+|-------+-----------------+------|
+| 1     | Let's Explore Maps    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/LearnMapBabcock.cpp][LearnMapBabcock.cpp]] |
