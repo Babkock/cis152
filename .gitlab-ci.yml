@@ -30,6 +30,7 @@ build:
     - cd ..
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - strip Interfaces
+    - g++ LearnMapBabcock.cpp -Wall -O2 -o LearnMap
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
     - strip callStack
     - g++ StackApplicationBabcock.cpp -Wall -O2 -o StackApplication
