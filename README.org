@@ -1,95 +1,48 @@
 #+TITLE: Data Structures
 #+AUTHOR: Tanner Babcock
 #+EMAIL: babkock@protonmail.com
+#+DESCRIPTION: My homework repository for my Data Structures class.
 #+LANGUAGE: en
 
 [[https://gitlab.com/tbhomework/cis152/-/raw/main/SortingSearchingExperiment/screens/binarySearch.png]]
 
 This is my repository for my Data Structures class.
 
-* Module 0
+* Assignments
 
-|Topic|Assignment|Link|
-|-----+----------+----|
-| 3   |Using Iterators|[[https://gitlab.com/tbhomework/cis152/-/blob/main/IteratorsBabcock.cpp][IteratorsBabcock.cpp]] |
+| Module | Topic | Assignment                                    | Link                                |
+|--------+-------+-----------------------------------------------+-------------------------------------|
+|      0 |     3 | Using Iterators                               | [[https://gitlab.com/tbhomework/cis152/-/blob/main/IteratorsBabcock.cpp][IteratorsBabcock.cpp]]                |
+|      1 |     4 | Basic OO and Encapsulation                    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/CanBabcock.cpp][CanBabcock.cpp]]                      |
+|      1 |     5 | Inheritance and Polymorphism: SuperClass      | [[https://gitlab.com/tbhomework/cis152/-/blob/main/SuperClassBabcock.cpp][SuperClassBabcock.cpp]]               |
+|      2 |     1 | Inheritance and Polymorphism: Derived Classes | [[https://gitlab.com/tbhomework/cis152/-/tree/main/DerivedClasses][DerivedClasses]]                      |
+|      2 |     2 | Abstract Class                                | [[https://gitlab.com/tbhomework/cis152/-/blob/main/AbstractBabcock.cpp][AbstractBabcock.cpp]]                 |
+|      2 |     3 | Interfaces and Polymorphism                   | [[https://gitlab.com/tbhomework/cis152/-/blob/main/InterfacesBabcock.cpp][InterfacesBabcock.cpp]]               |
+|      3 |     1 | Array-Based Stack Implementation Lab          | [[https://gitlab.com/tbhomework/cis152/-/tree/main/StackLab][StackLab]]                            |
+|      3 |     1 | Call Stack Lab                                | [[https://gitlab.com/tbhomework/cis152/-/blob/main/callStackBabcock.cpp][callStackBabcock.cpp]]                |
+|      3 |     2 | Towers of Hanoi                               | [[https://gitlab.com/tbhomework/cis152/-/blob/main/TowersOfHanoiBabcock.cpp][TowersOfHanoiBabcock.cpp]]            |
+|      4 |     1 | Convert Infix to Postfix Using Stack          | [[https://gitlab.com/tbhomework/cis152/-/blob/main/StackApplicationBabcock.cpp][StackApplicationBabcock.cpp]]         |
+|      4 |     2 | Array-Based Queue Implementation              | [[https://gitlab.com/tbhomework/cis152/-/tree/main/QueueLab][QueueLab]]                            |
+|      5 |     1 | First Come First Serve Tickets                | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ticketsQueue.cpp][ticketsQueue.cpp]]                    |
+|      5 |     2 | Array-Based Linked List Implementation        | [[https://gitlab.com/tbhomework/cis152/-/blob/main/arrayLinkedListBabcock.cpp][arrayLinkedListBabcock.cpp]]          |
+|      6 |     1 | List-Based Stack Implementation               | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedStack][ListBasedStack]]                      |
+|      6 |     2 | List-Based Queue Implementation               | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedQueue][ListBasedQueue]]                      |
+|      7 |     1 | Priority Queue Implementation                 | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueBabcock.cpp][PriorityQueueBabcock.cpp]]            |
+|      7 |     2 | Priority Queue Application                    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueApplicationBabcock.cpp][PriorityQueueApplicationBabcock.cpp]] |
+|      8 |     1 | Sorting and Searching Timing Experiment       | [[https://gitlab.com/tbhomework/cis152/-/tree/main/SortingSearchingExperiment][SortingSearchingExperiment]]          |
+|      9 |     1 | Binary Search Tree Assignment                 | [[https://gitlab.com/tbhomework/cis152/-/blob/main/BinarySearchTreeBabcock.cpp][BinarySearchTreeBabcock.cpp]]         |
+|     10 |     1 | Binary Search Decision Tree                   | [[https://gitlab.com/tbhomework/cis152/-/blob/main/DecisionTreeBabcock.cpp][DecisionTreeBabcock.cpp]]             |
+|     12 |     1 | Let's Explore Maps                            | [[https://gitlab.com/tbhomework/cis152/-/blob/main/LearnMapBabcock.cpp][LearnMapBabcock.cpp]]                 |
+|     13 |     1 | Implement a Heap                              | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ImplementHeapBabcock.cpp][ImplementHeapBabcock.cpp]]            |
 
-* Module 1
+* Final Project
 
-|Topic|Assignment|Link|
-|-----+----------+----|
-| 4   | Basic OO and Encapsulation|[[https://gitlab.com/tbhomework/cis152/-/blob/main/CanBabcock.cpp][CanBabcock.cpp]] |
-| 5   | Inheritance and Polymorphism: SuperClass|[[https://gitlab.com/tbhomework/cis152/-/blob/main/SuperClassBabcock.cpp][SuperClassBabcock.cpp]] |
+[[https://github.com/Babkock/VideoStore][My final project is here, on GitHub.]]
 
-* Module 2
+* Examples
 
-| Topic | Assignment                                    | Link                |
-|-------+-----------------------------------------------+---------------------|
-|     1 | Inheritance and Polymorphism: Derived Classes | [[https://gitlab.com/tbhomework/cis152/-/tree/main/DerivedClasses][DerivedClasses]]      |
-|     2 | Abstract Class                                | [[https://gitlab.com/tbhomework/cis152/-/blob/main/AbstractBabcock.cpp][AbstractBabcock.cpp]] |
-|     3 | Interfaces and Polymorphism                   | [[https://gitlab.com/tbhomework/cis152/-/blob/main/InterfacesBabcock.cpp][InterfacesBabcock.cpp]] |
-
-* Module 3
-
-| Topic | Assignment                   | Link             |
-|-------+------------------------------+------------------|
-|     1 | Array-Based Stack Implementation Lab | [[https://gitlab.com/tbhomework/cis152/-/tree/main/StackLab][StackLab]]   |
-|     1 | Call Stack Lab               | [[https://gitlab.com/tbhomework/cis152/-/blob/main/callStackBabcock.cpp][callStackBabcock.cpp]] |
-|     2 | Towers of Hanoi              | [[https://gitlab.com/tbhomework/cis152/-/blob/main/TowersOfHanoiBabcock.cpp][TowersOfHanoiBabcock.cpp]] |
-
-* Module 4
-
-| Topic | Assignment                  | Link             |
-|-------+-----------------------------+------------------|
-|     1 | Convert Infix to Postfix Using Stack | [[https://gitlab.com/tbhomework/cis152/-/blob/main/StackApplicationBabcock.cpp][StackApplicationBabcock.cpp]] |
-|     2 | Array-Based Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/QueueLab][QueueLab]] |
-
-* Module 5
-
-| Topic | Assignment                             | Link                       |
-|-------+----------------------------------------+----------------------------|
-|     1 | First Come First Serve Tickets         | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ticketsQueue.cpp][ticketsQueue.cpp]]           |
-|     2 | Array-Based Linked List Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/arrayLinkedListBabcock.cpp][arrayLinkedListBabcock.cpp]] |
-
-* Module 6
-
-| Topic | Assignment              | Link             |
-|-------+-------------------------+------------------|
-|     1 | List-Based Stack Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedStack][ListBasedStack]] |
-|     2 | List-Based Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/tree/main/ListBasedQueue][ListBasedQueue]] |
-
-* Module 7
-
-| Topic | Assignment                         | Link          |
-|-------+------------------------------------+---------------|
-| 1     | Priority Queue Implementation | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueBabcock.cpp][PriorityQueueBabcock.cpp]]  |
-| 2     | Priority Queue Application    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/PriorityQueueApplicationBabcock.cpp][PriorityQueueApplicationBabcock.cpp]] |
-
-* Module 8
-
-| Topic | Assignment                  | Link  |
-|-------+-----------------------------+-------|
-| 1     | Sorting and Searching Timing Experiment | [[https://gitlab.com/tbhomework/cis152/-/tree/main/SortingSearchingExperiment][SortingSearchingExperiment]] |
-
-* Module 9
-
-| Topic | Assignment                  | Link |
-|-------+-----------------------------+------|
-| 1     | Binary Search Tree Assignment | [[https://gitlab.com/tbhomework/cis152/-/blob/main/BinarySearchTreeBabcock.cpp][BinarySearchTreeBabcock.cpp]] |
-
-* Module 10
-
-| Topic | Assignment           | Link |
-|-------+----------------------+------|
-| 1     | Binary Search Decision Tree  | [[https://gitlab.com/tbhomework/cis152/-/blob/main/DecisionTreeBabcock.cpp][DecisionTreeBabcock.cpp]] |
-
-* Module 12
-
-| Topic | Assignment      | Link |
-|-------+-----------------+------|
-| 1     | Let's Explore Maps    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/LearnMapBabcock.cpp][LearnMapBabcock.cpp]] |
-
-* Module 13
-
-| Topic | Assignment | Link |
-|-------+------------+------|
-| 1     | Implement a Heap | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ImplementHeapBabcock.cpp][ImplementHeapBabcock.cpp]] |
+- [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/BITexample.cpp][Binary Insertion Tree]]
+- [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/heap.cpp][Heap]]
+- [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/queue.cpp][Queue]]
+- [[http://gitlab.com/tbhomework/cis152/-/blob/main/examples/stackExample.cpp][Stack]]
+- [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/trieExample.cpp][Trie]]

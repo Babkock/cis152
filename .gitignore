@@ -8,6 +8,7 @@ LearnMap
 PriorityQueueApplication
 *.o
 *.zip
+*.pdf
 DerivedClasses/DerivedClasses
 ListBasedStack/ListBasedStack
 ListBasedQueue/ListBasedQueue
