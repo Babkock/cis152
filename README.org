@@ -41,7 +41,7 @@ This is my repository for my Data Structures class.
 
 * Examples
 
-- [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/BITexample.cpp][Binary Insertion Tree]]
+- [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/BITexample.cpp][Binary Indexed Tree]]
 - [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/heap.cpp][Heap]]
 - [[https://gitlab.com/tbhomework/cis152/-/blob/main/examples/queue.cpp][Queue]]
 - [[http://gitlab.com/tbhomework/cis152/-/blob/main/examples/stackExample.cpp][Stack]]
