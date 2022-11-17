@@ -3,6 +3,8 @@ Iterators
 Can
 Abstract
 StackApplication
+ImplementHeap
+LearnMap
 PriorityQueueApplication
 *.o
 *.zip

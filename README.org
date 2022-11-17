@@ -87,3 +87,9 @@ This is my repository for my Data Structures class.
 | Topic | Assignment      | Link |
 |-------+-----------------+------|
 | 1     | Let's Explore Maps    | [[https://gitlab.com/tbhomework/cis152/-/blob/main/LearnMapBabcock.cpp][LearnMapBabcock.cpp]] |
+
+* Module 13
+
+| Topic | Assignment | Link |
+|-------+------------+------|
+| 1     | Implement a Heap | [[https://gitlab.com/tbhomework/cis152/-/blob/main/ImplementHeapBabcock.cpp][ImplementHeapBabcock.cpp]] |

@@ -31,6 +31,9 @@ build:
     - g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
     - strip Interfaces
     - g++ LearnMapBabcock.cpp -Wall -O2 -o LearnMap
+    - strip LearnMap
+    - g++ ImplementHeapBabcock.cpp -Wall -O2 -o ImplementHeap
+    - strip ImplementHeap
     - g++ callStackBabcock.cpp -Wall -O2 -o callStack
     - strip callStack
     - g++ StackApplicationBabcock.cpp -Wall -O2 -o StackApplication
@@ -41,6 +44,7 @@ build:
     - g++ stackExample.cpp -Wall -O2 -o stack
     - g++ trieExample.cpp -Wall -O2 -o trie
     - g++ queue.cpp -Wall -O2 -o queue
+    - g++ heap.cpp -Wall -O2 -o heap
     - cd ..
     - g++ ticketsQueue.cpp -Wall -O2 -o ticketsQueue
     - strip ticketsQueue
@@ -65,10 +69,12 @@ build:
       - StackApplication
       - examples/bit
       - examples/example
+      - examples/heap
       - examples/stack
       - examples/trie
       - ticketsQueue
       - arrayLinkedList
       - PriorityQueue
       - PriorityQueueApplication
-
+      - LearnMap
+      - ImplementHeap
