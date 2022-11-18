@@ -76,6 +76,10 @@ public:
         return heap->front();
     }
 
+    void sort(void) {
+        sort_heap(heap->begin(), heap->end());
+    }
+
     unsigned int getSize(void) {
         unsigned int s = heap->size();
         if (s != size)
@@ -100,14 +104,20 @@ int main(void) {
 
     /* first heap is for strings */
     Heap<string> *heap = new Heap<string>(i);
-    heap->push("test string");
+    heap->push("second element");
+    heap->sort();
     heap->push("third element");
+    heap->sort();
+    heap->push("fourth");
+    heap->sort();
     cout << "The front element of heap 1 is: " << heap->front() << endl;
     cout << "Size of first heap is now " << heap->getSize() << endl << endl;
     heap->print();
 
     heap->pop();
+    heap->sort();
     heap->pop();
+    heap->sort();
     cout << "Size of first heap is now " << heap->getSize() << endl << endl;
     heap->print();
 
