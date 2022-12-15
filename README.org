@@ -4,7 +4,7 @@
 #+DESCRIPTION: My homework repository for my Data Structures class.
 #+LANGUAGE: en
 
-[[https://gitlab.com/tbhomework/cis152/-/commits/main][https://gitlab.com/tbhomework/cis152/badges/main/pipeline.svg]]
+[[https://gitlab.com/tbhomework/cis152/badges/main/pipeline.svg]]
 [[https://github.com/Babkock/cis152/actions/workflows/c-cpp.yml/badge.svg]]
 
 [[https://gitlab.com/tbhomework/cis152/-/raw/main/SortingSearchingExperiment/screens/binarySearch.png]]
