@@ -1,0 +1,51 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build
+      run: |
+        g++ IteratorsBabcock.cpp -Wall -O2 -o Iterators
+        g++ CanBabcock.cpp -Wall -O2 -o Can
+        g++ SuperClassBabcock.cpp -Wall -O2 -o SuperClass
+        g++ AbstractBabcock.cpp -Wall -O2 -o Abstract
+        g++ BinarySearchTreeBabcock.cpp -Wall -O2 -o BinarySearchTree
+        strip BinarySearchTree
+        cd DerivedClasses
+        make
+        cd ..
+        cd ListBasedStack
+        make
+        cd ..
+        cd ListBasedQueue
+        make
+        cd ..
+        cd SortingSearchingExperiment
+        make
+        cd ..
+        g++ InterfacesBabcock.cpp -Wall -O2 -o Interfaces
+        g++ LearnMapBabcock.cpp -Wall -O2 -o LearnMap
+        g++ ImplementHeapBabcock.cpp -Wall -O2 -o ImplementHeap
+        g++ callStackBabcock.cpp -Wall -O2 -o callStack
+        g++ StackApplicationBabcock.cpp -Wall -O2 -o StackApplication
+        cd examples
+        g++ BITexample.cpp -Wall -O2 -o bit
+        g++ example.cpp -Wall -O2 -o example
+        g++ stackExample.cpp -Wall -O2 -o stack
+        g++ trieExample.cpp -Wall -O2 -o trie
+        g++ queue.cpp -Wall -O2 -o queue
+        g++ heap.cpp -Wall -O2 -o heap
+        cd ..
+        g++ ticketsQueue.cpp -Wall -O2 -o ticketsQueue
+        g++ arrayLinkedListBabcock.cpp -Wall -O2 -o arrayLinkedList
+        g++ PriorityQueueBabcock.cpp -Wall -O2 -o PriorityQueue
+        g++ PriorityQueueApplicationBabcock.cpp -Wall -O2 -o PriorityQueueApplication
